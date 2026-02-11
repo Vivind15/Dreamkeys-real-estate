@@ -20,11 +20,11 @@ nav a {
 }
 
 .hero {
-    padding: 100px 20px;
-    text-align: center;
-    background: linear-gradient(135deg, #1e3d59, #3a6073);
+ text-align: center;
+    padding: 80px 20px;
+    background: url('https://images.unsplash.com/photo-1493809842364-78817add7ffb') no-repeat center;
+    background-size: cover;
     color: white;
-}
 }
 
 .hero input {
