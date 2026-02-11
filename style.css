@@ -139,3 +139,28 @@ footer {
     margin-top: 60px;
     font-size: 28px;
 }
+.category-tabs {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.category-tabs button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #1e3d59;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.category-tabs button:hover {
+    background-color: #163047;
+}
+
+.property-category {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
