@@ -28,3 +28,13 @@ toggleButton.addEventListener("click", function() {
         toggleButton.textContent = "🌙";
     }
 });
+function showCategory(categoryId) {
+
+    const categories = document.querySelectorAll(".property-category");
+
+    categories.forEach(function(category) {
+        category.style.display = "none";
+    });
+
+    document.getElementById(categoryId).style.display = "flex";
+}
