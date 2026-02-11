@@ -24,25 +24,26 @@
     <p>Luxury | Affordable | Trusted</p>
     <input type="text" id="search" placeholder="Search by city...">
 </section>
-<section id="properties" class="properties">
-
-    <h2>Land</h2>
-    <div class="property-group">
-
+   <div class="category-tabs">
+    <button onclick="showCategory('apartments')">🏢 Apartments</button>
+    <button onclick="showCategory('villas')">🏡 Villas</button>
+    <button onclick="showCategory('lands')">🌾 Lands</button>
+</div>
+<div id="apartments" class="property-category">
         <div class="property" data-city="New York">
            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef" alt="Land in Lonavala">
             <h3>Land</h3>
             <p>City: Lonavla</p>
             <p>Price: 1,35,00,000rs</p>
         </div>
-
+<div id="apartments" class="property-category">
         <div class="property" data-city="Chicago">
            <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e" alt="Land in Khopoli">
             <h3>Land</h3>
             <p>City: Khopoli</p>
             <p>Price: 1,10,00,000rs</p>
         </div>
-
+<div id="apartments" class="property-category">
         <div class="property" data-city="Miami">
           <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="Land in Karjat">
             <h3> Land</h3>
@@ -51,8 +52,7 @@
         </div>
 
     </div>
-
-</section>
+   
 <section id="about" class="about">
     <h2>About Us</h2>
     <p>DreamKeys is a trusted real estate company helping clients find their perfect home with transparency and reliability.</p>
