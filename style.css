@@ -127,3 +127,15 @@ footer {
     cursor: pointer;
     border-radius: 5px;
 }
+.property-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.properties h2 {
+    margin-top: 60px;
+    font-size: 28px;
+}
