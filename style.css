@@ -103,21 +103,6 @@ footer {
         width: 90%;
     }
 }
-Ooooo 😎🔥
-Black & Gold Dark Mode = Luxury Real Estate Vibes.
-
-We’re going to make your website look like a premium property company.
-
-Follow carefully 👇
-
-🎨 STEP 1: Update Your Dark Mode CSS (Luxury Version)
-
-Remove your old dark mode CSS and replace with this:
-
-/* ============================= */
-/* 🖤 Luxury Black & Gold Mode  */
-/* ============================= */
-
 .dark-mode {
     background-color: #000000;
     color: #f5d37a;
@@ -156,7 +141,18 @@ Remove your old dark mode CSS and replace with this:
     background-color: #d4af37;
     color: #000;
 }
-
+/* toggle button*/
+#darkToggle {
+    background-color: #d4af37;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 6px 15px;
+}
+.dark-mode .property:hover {
+    box-shadow: 0 0 15px #d4af37;
+    transform: translateY(-8px);
+}
 /* Footer */
 .dark-mode footer {
     background-color: #111111;
