@@ -1,13 +1,20 @@
-document.getElementById("search").addEventListener("keyup", function() {
-    let value = this.value.toLowerCase();
-    let properties = document.querySelectorAll(".property");
+document.addEventListener("DOMContentLoaded", function() {
 
-    properties.forEach(function(property) {
-        let city = property.getAttribute("data-city").toLowerCase();
-        if (city.includes(value)) {
-            property.style.display = "inline-block";
-        } else {
-            property.style.display = "none";
-        }
+    const searchInput = document.getElementById("search");
+    const properties = document.querySelectorAll(".property");
+
+    searchInput.addEventListener("input", function() {
+        let value = this.value.toLowerCase();
+
+        properties.forEach(function(property) {
+            let city = property.getAttribute("data-city").toLowerCase();
+
+            if (city.includes(value)) {
+                property.style.display = "block";
+            } else {
+                property.style.display = "none";
+            }
+        });
     });
+
 });
